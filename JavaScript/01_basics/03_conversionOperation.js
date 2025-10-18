@@ -1,7 +1,6 @@
 let score = undefined;
 
 console.log(typeof score);
-console.log(typeof score);
 
 let valueInNumber = Number(score);
 console.log(valueInNumber); // NaN when score = "33abc"
