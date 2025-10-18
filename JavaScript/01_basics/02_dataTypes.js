@@ -22,3 +22,37 @@ let isLoggedIn = false;
 
 console.log(typeof null) // object
 console.log(typeof undefined) // undefined
+
+// primitives datatypes are stored in stack memory
+// non-primitive datatypes are stored in heap memory
+
+// primitive data types 
+// Number, String, Boolean, null, undefined, Symbol, BigInt
+
+// reference data types
+// Object, Array, Function
+
+// ******************************************
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubeName = "byteswithankit";
+
+let anotherName = myYoutubeName;
+anotherName = "ChaiAurCode";
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let user = 
+{
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = user;
+
+user.email = "a@a.com";
+
+console.log(user)
+console.log(userTwo)
